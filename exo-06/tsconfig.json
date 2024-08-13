@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2016", 	  									/* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "NodeNext",											/* Specify what module code is generated. */
+    "moduleResolution": "NodeNext",						// Résolution des modules via Node
+    "outDir": "dist/", 												/* Specify an output folder for all emitted files. */
+		"rootDir": "src/",
+    "esModuleInterop": true, 									/* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,	/* Ensure that casing is correct in imports. */
+    "strict": true, 													/* Enable all strict type-checking options. */
+		"noUnusedLocals": true, 									/* Enable error reporting when local variables aren't read. */
+    "noImplicitAny": true, 										/* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "skipLibCheck": true,											/* Skip type checking all .d.ts files. */
+    "types": ["vitest/globals"],
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+  },
+	"include": ["src/*.ts"],
+  "exclude": ["**/types/types.ts", "**/*.test.ts"]
+}

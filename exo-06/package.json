@@ -1,0 +1,22 @@
+{
+  "name": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"type": "module",
+  "scripts": {
+		"start": "node ./dist/app.js",
+		"watch": "tsc --watch",
+    "build": "tsc -p ./tsconfig.json",
+		"test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
