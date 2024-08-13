@@ -1,0 +1,21 @@
+{
+  "name": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"start": "node ./dist/index.js",
+		"watch": "tsc -w",
+    "build": "tsc -p .",
+		"test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}
