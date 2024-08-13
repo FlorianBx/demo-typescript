@@ -1,4 +1,4 @@
-# Exercice 1 : Types Primitifs et Fonctions
+# Exercice 00 : Types Primitifs et Fonctions
 
 #### Objectif
 
