@@ -1,4 +1,4 @@
-# Exercice 6 : Classes, Héritage et Polymorphisme
+# Exercice 05 : Classes, Héritage et Polymorphisme
 
 ### Objectif
 
