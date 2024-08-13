@@ -1,4 +1,4 @@
-# Exercice 2 : Interfaces et Types
+# Exercice 01 : Interfaces et Types
 
 #### Objectif
 
