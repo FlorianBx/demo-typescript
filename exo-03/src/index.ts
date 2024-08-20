@@ -1,6 +1,6 @@
-export const TAX = 1.2;
+const TAX = 1.2;
 
-export class Product {
+class Product {
   constructor(
     public id: number, public name: string, public price: number
 	) {}
