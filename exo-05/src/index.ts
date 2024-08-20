@@ -1,4 +1,4 @@
-export class Employee {
+class Employee {
 	constructor(
 		public readonly id: number, public readonly name: string, public salary: number 
 	) {}
@@ -8,7 +8,7 @@ export class Employee {
 	}
 }
 
-export class Manager extends Employee {
+class Manager extends Employee {
 	constructor(
 		id: number, name: string, salary: number, public bonus: number 
 	) {
