@@ -1,6 +1,6 @@
 import { User } from "./types";
 
-export function getActiveUsers(users: User[]): User[] {
+function getActiveUsers(users: User[]): User[] {
   return users.filter((user) => user.email.includes("@active.com"));
 }
 
