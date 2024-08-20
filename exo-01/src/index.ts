@@ -1,6 +1,6 @@
 import { User } from './types';
 
-export function getUserInfo(user: User): string {
+function getUserInfo(user: User): string {
 	return `User ${user.name} has the email ${user.email}.`;
 }
 
