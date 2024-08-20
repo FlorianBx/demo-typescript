@@ -1,4 +1,4 @@
-export function getUserGreeting(name: string, age: number): string {
+function getUserGreeting(name: string, age: number): string {
 	return `Hello ${name}, you are ${age} years old.`;
 }
 
